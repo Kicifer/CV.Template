@@ -1,0 +1,34 @@
+% main.tex
+\documentclass{Style_CV}
+
+\begin{document}
+\Header
+    {Example} % name
+    {Shanghai Jiao Tong University, Dongchuan RD., Shanghai, China} % University, the page can be changed in Style_CV.cls
+    {Example}% Major
+    {Example} % phone number
+    {Example} % email
+    {Example} % website - this parameter is optional, removing it won't impact the function's behavior
+
+% Sections
+\CVsection{Education}
+$\bullet$\quad Shanghai Jiao Tong University\hfill Beginning Time - Ending Time\\
+Major \hfill Degree\\
+
+\CVsection{Publication}
+\begin{enumerate}
+    \renewcommand{\labelenumi}{[\theenumi]}
+    \item \href{Example Line}{Example}
+\end{enumerate}
+
+
+\CVsection{Award \& Honor}
+\begin{itemize}[leftmargin=*]
+    \item Example
+\end{itemize}
+
+\CVsection{Additional Experience}
+\CVsection{Language \& Skills}
+\CVsection{References}
+
+\end{document}
